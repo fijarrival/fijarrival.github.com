@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/brands.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome.min.css" />
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="./index.html">Kembali</a>
+      </li>
+    </ul>
+    <div class="mode">
+      <i class="fa-regular fa-moon"></i>
+    </div>
+
+    <div class="container">
+      <h1>Beberapa Portfolio yang telah saya buat</h1>
+
+      <div class="row">
+        <div class="col">
+          <img src="./img/porto2.jpg" alt="" />
+          <div class="deskripsi">
+            <h2>feed instagram</h2>
+        <p>ini adalah beberapa hasil desain saya seputar taman safari</p>
+          </div>
+      </div> 
+        <div class="col">
+          <img src="./img/porto3.jpg" alt="" />
+          <div class="deskripsi">
+            <h2>feed instagram</h2>                                  
+            <p>feed yang memberi informasi mengenai wisata taman safari</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./img/porto4.jpg" alt="" />
+          <div class="deskripsi">
+            <h2>feed instagram</h2>
+            <p>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const mode = document.querySelector(".mode");
+      const body = document.querySelector("body");
+      const text = document.querySelector(".text");
+
+      mode.onclick = function () {
+        body.classList.toggle("gelap");
+      };
+    </script>
+  </body>
+</html>
